@@ -1,7 +1,7 @@
-##CHANGELOG
+#CHANGELOG
 All notable changes to this project are documented in this file.
 
-#April 1, 2024 — Initial Program Structure
+##April 1, 2024 — Initial Program Structure
 Added
 Basic program framework for drivetrain calculations.
 
@@ -11,7 +11,7 @@ Automatic detection of key columns (motor RPM, input gear, output gear, wheel sp
 
 Initial filtering system based on selected motor RPM.
 
-#April 5, 2024 — Wheel Size Detection
+##April 5, 2024 — Wheel Size Detection
 Added
 Regex‑based extraction of wheel diameters from column headers.
 
@@ -19,7 +19,7 @@ Dynamic wheel‑size menu populated only with valid wheel options.
 
 Filtering now respects both motor RPM and wheel diameter.
 
-#April 10, 2024 — Gear Selection System
+##April 10, 2024 — Gear Selection System
 Added
 Detection of direct‑drive (1:1) availability.
 
@@ -29,7 +29,7 @@ Output gear menu now shows only valid gears for the selected input gear.
 
 Prevented invalid gear combinations from appearing in menus.
 
-#April 15, 2024 — Speed and Torque Calculations
+##April 15, 2024 — Speed and Torque Calculations
 Added
 Gear ratio calculation for both direct and geared drive.
 
@@ -39,7 +39,7 @@ Torque‑at‑wheel calculation using stall torque multiplied by gear ratio.
 
 Summary output showing all selected drivetrain parameters.
 
-#April 22, 2024 — Physical Fit Warning System
+##April 22, 2024 — Physical Fit Warning System
 Added
 Warning when the output gear is larger than the selected wheel.
 
@@ -49,7 +49,7 @@ Red text warnings using fprintf(2, ...).
 
 System allows any ratio but alerts the user when the design may not physically fit.
 
-#April 29, 2024 — Warning System Refinement
+##April 29, 2024 — Warning System Refinement
 Fixed
 Reduced false‑positive warnings by adding realistic tolerances.
 
