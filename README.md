@@ -16,7 +16,7 @@ download the MATLAB file and the Excel file
 
 Place the Excel file drive_Speed_VEX.xlsx in the same directory as the MATLAB script.
 
-Open the main script (drivetrainCalc.m) in MATLAB.
+Open the main script in MATLAB.
 
 Run the script.
 
