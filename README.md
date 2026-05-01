@@ -13,6 +13,8 @@ How to Use
 download the MATLAB file and the Excel file
 [drive_Speed_VEX.xlsx](https://github.com/user-attachments/files/27214018/drive_Speed_VEX.xlsx)
 
+open the MATLAB file in MATLAB
+
 
 Place the Excel file drive_Speed_VEX.xlsx in the same directory as the MATLAB script.
 
